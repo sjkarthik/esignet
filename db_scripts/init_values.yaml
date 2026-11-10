@@ -59,6 +59,7 @@ databases:
   mosip_esignet:
     enabled: true
     host: "postgres-postgresql.postgres"
+    repoUrl: https://github.com/sjkarthik/esignet.git
     port: 5432
     su:
       user: postgres
@@ -66,4 +67,4 @@ databases:
         name: postgres-postgresql
         key: postgres-password
     dml: 1
-    branch: develop
+    branch: v1.4.0-new
